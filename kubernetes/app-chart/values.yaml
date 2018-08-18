@@ -1,0 +1,37 @@
+
+replicaCount: 2
+
+image:
+  repository: luizao/app
+  tag: stable
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 3000
+
+application:
+  name: Luiz Miguel Garcia Ferreira
+
+ingress:
+  enabled: true
+  annotations: {}
+  path: /
+  hosts:
+    - chart-example.local
+  tls: []
+
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
