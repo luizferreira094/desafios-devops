@@ -2,6 +2,8 @@
 
 Aqui estão o chart da aplicação app-chart, junto com o script de deploy.
 
+Optei por fazer upload da imagem desse desafio, segue: https://hub.docker.com/r/luizao/app/
+
 **Instruções Pré-Execução:**
 
 - Esse desafio foi criado utilizando minikube, para que o deploy seja realizado com sucesso é necessário o minikube estar rodando (`minukube start`) com uma instância do helm up (`helm init`).
