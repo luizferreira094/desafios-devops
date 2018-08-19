@@ -1,3 +1,3 @@
-output "challenge.ip" {
-  value = "${aws_instance.challenge.public_ip}"
+output "aws_elb.ip" {
+  value = "${aws_elb.lb.public_ip}"
 }
