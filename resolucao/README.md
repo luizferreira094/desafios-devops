@@ -10,6 +10,6 @@ Aqui estão o chart da aplicação app-chart, junto com o script de deploy.
 
 - Adicionar a entrada `chart-example.local` no `/etc/hosts` apontando para o ip do minikube (`minikube ip`)
 
-- Para efetuar o deploy rode o comando `./run.sh`.
+- **Para efetuar o deploy rode o comando `./run.sh`.**
 
 - Após o deploy ser finalizado, acessar http://chart-example.local/ 
