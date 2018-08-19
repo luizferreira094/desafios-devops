@@ -26,8 +26,7 @@ resource "aws_instance" "app" {
 /* Load balancer */
 resource "aws_elb" "lb" {
   name = "app-elb"
-  subnets = ["${aws_subnet.public.id}"]
-  security_groups = ["${aws_security_group.default.id}", "${aws_security_group.web.id}"]
+  security_groups = ["${aws_security_group.web.id}"]
   listener {
     instance_port = 80
     instance_protocol = "http"
