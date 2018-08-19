@@ -1,1 +1,4 @@
 terraform/resolucao/.terraform/
+terraform/resolucao/app/terraform.tfstate
+terraform/resolucao/app/terraform.tfstate.backup
+terraform/resolucao/app/.terraform
