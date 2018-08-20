@@ -3,5 +3,8 @@
 # Execução do desafio:
 
 - Para executar o deploy , entrar na pasta app e rodar os seguintes comandos:
-`terraform init`
-`terraform apply`
+```
+terraform init
+
+terraform apply
+```
